@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Playwrite+NO:wght@100..400&family=Playwrite+NZ+Basic+Guides&display=swap');
 
+
+html {
+  scroll-behavior: smooth;
+}
 
 /* Reset básico */
 * {
@@ -151,7 +156,7 @@ body {
 
 .camada4 {
   position: absolute;
-  bottom: -5vh;
+  bottom: -6vh;
   left: 0;
   width: 100%;
   height: auto;
@@ -677,7 +682,7 @@ body {
     height: 25px;
   }
   a {
-    color(255, 213, 0, 0.6);
+    color:(255, 213, 0, 0.6);
   transform: rotate(3deg);
 }
 }

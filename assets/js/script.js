@@ -110,3 +110,37 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+
+// Parte de animações 
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    ScrollReveal().reveal(".camada", {
+      origin: 'bottom',
+      duration: 2500,
+      distance: '20%',
+      delay: 1000
+    });
+    
+    ScrollReveal().reveal(".camada2", {
+      origin: 'right',
+      duration: 1500,
+      distance: '50px',
+      delay: 400
+    });
+    
+    ScrollReveal().reveal(".section-title", {
+      origin: 'left',
+      duration: 2000,
+      distance: '20%',
+      interval: 200
+    });
+    
+    ScrollReveal().reveal(".card-container", {
+      origin: 'bottom',
+      duration: 2000,
+      distance: '20%'
+    });
+  }, 600);
+});
+
+
